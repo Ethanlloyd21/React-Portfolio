@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from '../Home';
-import About from '../About';
-import Resume from '../Resume';
-import Skills from '../Skills';
-import Portfolio from '../Portfolio';
-import Contact from '../Contact'
+import About from '../../pages/About';
+import Resume from '../../pages/Resume';
+import Skills from '../../pages/Skills';
+import Portfolio from '../../pages/Portfolio';
+import Contact from '../../pages/Contact'
 
 
 export default function Routes() {

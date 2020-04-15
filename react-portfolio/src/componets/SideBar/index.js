@@ -1,9 +1,9 @@
-import React from 'react';
+import React from './node_modules/react';
 import './style.css';
-import { Link } from 'react-router-dom';
+import { Link } from './node_modules/react-router-dom';
 import Routes from '../Routes';
 
-function SideBar() {
+function Sidebar() {
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -55,4 +55,4 @@ function SideBar() {
     );
 }
 
-export default SideBar;
+export default Sidebar;
